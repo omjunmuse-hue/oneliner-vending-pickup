@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "Hey. Press B4 if you're into me.";
+// The pickup line, sharpened: spoken out of the machine's own world —
+// falling, buttons, and the drop — and warm rather than creepy.
+const ENTRY = "Call me old-fashioned, but I only fall for one person at a time — press my buttons right and I'll drop everything I have for you.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
